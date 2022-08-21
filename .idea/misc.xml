@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Cli_50/AndroidStudioProjects/Codepath_Instagram2/app/src/main/res/layout/activity_login.xml" value="0.15806159420289856" />
-        <entry key="..\:/Users/Cli_50/AndroidStudioProjects/Codepath_Instagram2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Cli_50/AndroidStudioProjects/Codepath_Instagram2/app/src/main/res/drawable/bgbutton.xml" value="0.1155" />
+        <entry key="..\:/Users/Cli_50/AndroidStudioProjects/Codepath_Instagram2/app/src/main/res/layout/activity_login.xml" value="0.18" />
+        <entry key="..\:/Users/Cli_50/AndroidStudioProjects/Codepath_Instagram2/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
   </component>

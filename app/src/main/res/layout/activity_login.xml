@@ -9,12 +9,20 @@
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/imginsta" />
+
     <EditText
         android:id="@+id/etUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:ems="10"
+        android:layout_marginBottom="5dp"
         android:hint="username" />
 
     <EditText
@@ -30,6 +38,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/bgbutton"
         android:text="Login" />
 
 </LinearLayout>
