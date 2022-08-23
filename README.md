@@ -26,8 +26,13 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<p>
+<img src='walthrougth2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+</p>
+to confirm...
+<p>
+<img src='walthrougth1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+</p>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
