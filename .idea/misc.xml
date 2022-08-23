@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Cli_50/AndroidStudioProjects/Codepath_Instagram2/app/src/main/res/drawable/bgbutton.xml" value="0.1155" />
-        <entry key="..\:/Users/Cli_50/AndroidStudioProjects/Codepath_Instagram2/app/src/main/res/layout/activity_login.xml" value="0.18" />
+        <entry key="..\:/Users/Cli_50/AndroidStudioProjects/Codepath_Instagram2/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/Cli_50/AndroidStudioProjects/Codepath_Instagram2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Cli_50/AndroidStudioProjects/Codepath_Instagram2/app/src/main/res/layout/activity_sign_up.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Cli_50/AndroidStudioProjects/Codepath_Instagram2/app/src/main/res/menu/item_menu.xml" value="0.203125" />
       </map>
     </option>
   </component>

@@ -1,5 +1,6 @@
 package com.benginio.codepath_instagram;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -13,10 +14,13 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.parse.FindCallback;
@@ -36,9 +40,30 @@ public class MainActivity extends AppCompatActivity {
     private Button btnCaptureImage;
     private ImageView ivPostImage;
     private Button btnSubmit;
+    private ProgressBar pb;
     private File photoFile;
     public String photoFileName="photo.jpg";
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.item_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if(item.getItemId()==R.id.compose){
+            //compose icon has been selected
+            Toast.makeText(this, "Logout", Toast.LENGTH_SHORT).show();
+            ParseUser.logOut();
+            ParseUser currentUser = ParseUser.getCurrentUser(); // this will now be null
+            //Navigate to the compose activity
+            Intent intent=new Intent(this, LoginActivity.class);
+            startActivity(intent);
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,8 +71,9 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar myToolbar=(Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);
-        getSupportActionBar().setLogo(R.drawable.imglog);
+        getSupportActionBar().setLogo(R.drawable.logins);
 
+        pb = (ProgressBar) findViewById(R.id.progressBar1);
         //inflate
         etDescription=findViewById(R.id.etDescription);
         btnCaptureImage=findViewById(R.id.btnCaptureImage);
@@ -76,6 +102,8 @@ public class MainActivity extends AppCompatActivity {
                 }
                 ParseUser currentUser= ParseUser.getCurrentUser();
                 savePost(description, currentUser, photoFile);
+
+                pb.setVisibility(ProgressBar.VISIBLE);
             }
         });
 
@@ -152,6 +180,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.i(TAG,"Post save was Successful");
                 etDescription.setText("");
                 ivPostImage.setImageResource(0);
+                pb.setVisibility(ProgressBar.INVISIBLE);
             }
         });
 
