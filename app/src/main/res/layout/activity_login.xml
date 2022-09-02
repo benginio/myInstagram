@@ -65,7 +65,8 @@
             android:id="@+id/tvSignUp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="15sp"
+            android:textSize="20sp"
+            android:paddingBottom="5dp"
             android:textColor="@color/purple_500"
             android:text="@string/sign_up" />
 

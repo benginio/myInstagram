@@ -3,11 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Cli_50Backup/myInstagram/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Cli_50Backup/myInstagram/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Cli_50Backup/myInstagram/app/src/main/res/layout/activity_sign_up.xml" value="0.20416666666666666" />
+        <entry key="..\:/Cli_50Backup/myInstagram/app/src/main/res/layout/fragment_compose.xml" value="0.1" />
+        <entry key="..\:/Cli_50Backup/myInstagram/app/src/main/res/layout/fragment_post.xml" value="0.1" />
+        <entry key="..\:/Cli_50Backup/myInstagram/app/src/main/res/layout/item_post.xml" value="0.1" />
+        <entry key="..\:/Cli_50Backup/myInstagram/app/src/main/res/layout/toolbar_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Cli_50/AndroidStudioProjects/Codepath_Instagram2/app/src/main/res/drawable/bgbutton.xml" value="0.1155" />
         <entry key="..\:/Users/Cli_50/AndroidStudioProjects/Codepath_Instagram2/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/Cli_50/AndroidStudioProjects/Codepath_Instagram2/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Cli_50/AndroidStudioProjects/Codepath_Instagram2/app/src/main/res/layout/activity_sign_up.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Cli_50/AndroidStudioProjects/Codepath_Instagram2/app/src/main/res/menu/item_menu.xml" value="0.203125" />
+        <entry key="..\:/Users/Cli_50/Desktop/myInstagram/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Cli_50/Desktop/myInstagram/app/src/main/res/layout/activity_sign_up.xml" value="0.18" />
+        <entry key="..\:/Users/Cli_50/Desktop/myInstagram/app/src/main/res/layout/fragment_compose.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/Cli_50/Desktop/myInstagram/app/src/main/res/layout/fragment_post.xml" value="0.25" />
+        <entry key="..\:/Users/Cli_50/Desktop/myInstagram/app/src/main/res/layout/item_post.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/Cli_50/Desktop/myInstagram/app/src/main/res/layout/toolbar_main.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/Cli_50/Desktop/myInstagram/app/src/main/res/menu/item_menu.xml" value="0.22" />
+        <entry key="..\:/Users/Cli_50/Desktop/myInstagram/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.5" />
       </map>
     </option>
   </component>
